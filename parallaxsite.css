@@ -1,0 +1,155 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#intro {
+    background: url("pexels-nout-gons-378570.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    opacity: 0.7;
+}
+
+#intro h1{
+    background-color: rgb(0,0,0);
+    color:white;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+#middle1{
+    background: linear-gradient(to bottom,rgba(0,212,255,0.2),rgba(250,0,250,0.2)),url("pexels-kai-pilger-597909.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 60vh;
+    position: relative;
+
+}
+
+#middle1 h1{
+    color:white;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+#middle2{
+    background: url("pexels-lukas-kloeppel-466685.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 60vh;
+    opacity: 0.7;
+    position: relative;
+}
+
+#middle2 h1{
+    color:white;
+    font-size: 27px;
+    font-weight: 300;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+#outro{
+    background: url("pexels-nout-gons-378570.jpg");
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    opacity: 0.7;
+}
+
+#outro h1{
+    background-color: rgb(0,0,0);
+    color:white;
+    font-size: 27px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+}
+
+#sectionone{
+    text-align: center;
+    padding:50px 80px;
+    opacity: 0.6;
+    line-height: 24px;
+}
+
+#sectionone h2{
+   font-size: 24px; 
+    margin: 19px;
+}
+
+#sectionone p{
+    margin: 16px;
+}
+
+#sectiontwo{
+    text-align: center;
+    padding:50px 80px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+}
+
+#sectiontwo h2{
+   font-size: 24px; 
+    margin: 19px;
+}
+
+#sectiontwo p{
+    margin: 16px;
+}
+
+#sectionthree{
+    text-align: center;
+    padding:50px 80px;
+    line-height: 24px;
+    opacity: 0.8;
+    color: white;
+    background-color: black;
+}
+
+#sectionthree h2{
+   font-size: 24px; 
+    margin: 19px;
+}
+
+#sectionthree p{
+    margin: 16px;
+}
